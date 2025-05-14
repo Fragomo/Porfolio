@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Vue**
 
-- 👯 I’m looking to collaborate on **anyone who needs mes**
+- 👯 I’m looking to collaborate on **anyone who needs me**
 
 - 🤝 I’m looking for help with **my ...**
 
