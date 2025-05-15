@@ -5,14 +5,14 @@ body{
 }
 header{
     background-color: #97bdbe;
-    color: white;
+    color: whitesmoke;
     padding: 10px 0;
     text-align: center;
 }
 
 li{
     list-style: none;
-    display: inline-block;
+    display: inline;
     margin: 0 2em;
     font-size: 1.5em;
 }
@@ -105,6 +105,7 @@ li:hover{
     width: 300vmax;
     height: 300vmax;
     opacity: 0;
+    
   }
 }
 
@@ -136,7 +137,7 @@ li:hover{
   
   color: #333;
   opacity: 0;
-  animation: shimmer 6s ease-in-out 1s forwards;
+  animation: shimmer 5s ease-in-out 1s forwards;
 }
 
 .mirage-text + .mirage-text {
