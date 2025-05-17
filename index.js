@@ -2,18 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const introScreen = document.getElementById("intro-screen");
   const mainContent = document.getElementById("main-content");
 
-  // Al hacer clic en el texto "Step into the desert..."
   introScreen.addEventListener("click", () => {
-    // Crear el círculo animado desde el centro
-    const circle = document.createElement("div");
-    circle.classList.add("fade-circle");
-    introScreen.appendChild(circle);
+    // Aplicar clase de desvanecimiento
+    introScreen.classList.add("fade-out");
 
-    // Al finalizar la animación (coincidir con duración en CSS)
+    // Esperar a que termine la animación para ocultar y mostrar el contenido
     setTimeout(() => {
       introScreen.style.display = "none";
       mainContent.style.display = "block";
-    }, 1200); // 1.2s = duración de expandCircle
+    }, 2000); // Igual a la duración de la animación
   });
 });
+
 
