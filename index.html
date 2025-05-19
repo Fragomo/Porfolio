@@ -11,10 +11,18 @@
     <header class="header1">
         <nav class="navbar">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#main-content">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                  <a href="#projects">Projects</a>
+                  <ul class="dropdown-content">
+                    <li><a href="#project1">Project 1</a></li>
+                    <li><a href="#project2">Project 2</a></li>
+                    <li><a href="#project3">Project 3</a></li>
+                    <li><a href="#project4">Project 4</a></li>
+                </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -28,8 +36,8 @@
       <h1 class="text-focus-in">Hi,... I'm Francisco</h1>
       <h3 class="text-focus-in">a web and eCommerce junior developer</h3>
     </div>  
-    <section class="about">
-      <h2 class="">About me</h2>
+    <section id="about" class="about">
+      <h2 class="h2about">About me</h2>
       
       <p class="firstparagraph">I am a passionate web developer with a keen interest in creating dynamic and responsive web applications. I have experience in HTML, CSS, JavaScript, and various frameworks.</p>
       <br>
@@ -40,12 +48,53 @@
       <p class="firstparagraph">I spend my rest time reading books and doing some sports.</p>
       <br>
       <p class="firstparagraph">I am also interested in photography and enjoy capturing moments through my lens.</p>
-    </section>
-    <section class="projects">
-      <h2 class="">Projects</h2>
-      <p class="secondparagraph">Here are some of the projects I have worked on:</p>
+   <section id="projects" class="projects">
+  <h2 class="section-title">Projects</h2>
+  <p class="secondparagraph">Here are some of the projects I have worked on:</p>
 
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Loans and mortage simulator</h3>
+      <p>Short description of project 1.</p>
+      <div class="project-links">
+        <a href="https://github.com/Fragomo/Simulador-Hipotecas" class="github-button" target="_blank">Code</a>
+        <a href="https://tudemo1.netlify.app" class="github-button" target="_blank">Live Demo</a>
+      </div>
+    </div>
 
+    <div class="project-card">
+      <h3>Project 2</h3>
+      <p>Short description of project 2.</p>
+      <div class="project-links">
+        <a href="https://github.com/tuusuario/proyecto2" class="github-button" target="_blank">Code</a>
+        <a href="https://tudemo2.netlify.app" class="github-button" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 3</h3>
+      <p>Short description of project 3.</p>
+      <div class="project-links">
+        <a href="https://github.com/tuusuario/proyecto3" class="github-button" target="_blank">Code</a>
+        <a href="https://tudemo3.vercel.app" class="github-button" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 4</h3>
+      <p>Short description of project 4.</p>
+      <div class="project-links">
+        <a href="https://github.com/tuusuario/proyecto4" class="github-button" target="_blank">Code</a>
+        <a href="https://tudemo4.github.io" class="github-button" target="_blank">Live Demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="contact">
+      <h2 class="">Contact</h2>
+      <p class="thirdparagraph">Feel free to reach out to me via email or connect with me on LinkedIn.</p>
+      <p class="thirdparagraph">Email: <a href="mailto:LhD0g@example.com">LhD0g@example.com</a></p>
     </section>
   </main>
     
