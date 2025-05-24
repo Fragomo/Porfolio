@@ -49,7 +49,7 @@ li:hover{
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  background: #4a4a4a;
+  background: #2e2d2d;
   background-size: 400% 400%;
   
   color: #fff;
@@ -344,9 +344,19 @@ section{
   gap: 1rem;
 }
 
-.github-button {
+/*Diseño FOOTER*/
+
+footer {
+  background-color: #97bdbe;
+  color: rgba(255, 255, 255, 0.966);
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  height: 15em;
+}
+.social-icons {
   padding: 0.6rem 1.2rem;
-  background-color: #24292e;
+  
   color: #fff;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -354,7 +364,5 @@ section{
   transition: background-color 0.3s ease;
 }
 
-.github-button:hover {
-  background-color: #0366d6;
-}
+
 
